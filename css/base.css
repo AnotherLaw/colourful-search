@@ -61,7 +61,7 @@ li {
     margin: 1em;
 }
 
-section.grid {
+.grid {
     display: flex;
     align-items: center;
 }
@@ -113,12 +113,24 @@ input.find:focus {
     border-color: #4d90fe;
 }
 
+.buttons {
+    text-align: center;
+    align-self: center;
+    width: 320px;
+    margin: auto;
+}
+
 button.btn-s {
+    padding: 8px 16px;
     font-size: 13px;
     font-weight: 700;
     color: #757575;
     border: 1px none;
     border-radius: 2px;
+}
+
+.btn-s:first-child {
+    margin-right: 6px;
 }
 
 .logo {
@@ -165,17 +177,6 @@ button.btn-s {
       font-weight: normal;
       font-style: normal;
     }
-
-@font-face {
-      font-family: 'fa-menu';
-      src: url('./font/fa-menu.eot?9308977');
-      src: url('./font/fa-menu.eot?9308977#iefix') format('embedded-opentype'),
-           url('./font/fa-menu.woff?9308977') format('woff'),
-           url('./font/fa-menu.ttf?9308977') format('truetype'),
-           url('./font/fa-menu.svg?9308977#fa-menu') format('svg');
-      font-weight: normal;
-      font-style: normal;
-}     
      
 .demo-icon {
       font-family: "fa-menu";
@@ -210,4 +211,9 @@ button.btn-s {
      
       /* Uncomment for 3D effect */
       /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-apps:hover {
+    cursor: pointer;
+    color: #000;
 }
