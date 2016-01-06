@@ -61,6 +61,11 @@ li {
     margin: 1em;
 }
 
+section.grid {
+    display: flex;
+    align-items: center;
+}
+
 ul.menu > li {
     color: #404040;
     margin-left: 0;
@@ -117,9 +122,12 @@ button.btn-s {
 }
 
 .logo {
+    align-self: center;
     width: 272px;
     height: 94px;
     background-image: url("../img/Logo.png");
+    margin: auto;
+    margin-top: 148px;
 }
 
 .region {
