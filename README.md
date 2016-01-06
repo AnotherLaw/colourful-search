@@ -8,7 +8,7 @@ This project aims to complete the first project of The Odin Project, which utili
 
 ![](assets/google-ref.png?raw=true)
 
-## Repo result
+## End result
 ![](assets/final-result.png?raw=true)
 
 ## Demo
