@@ -58,19 +58,40 @@ ul {
 }
 
 li {
-    margin: 0.5em;
+    margin: 1em;
+}
+
+ul.menu > li {
+    color: #404040;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 8px 16px 8px 16px;
+}
+
+li.sign-button {
+    border: 1px solid #4385f4;
+    border-radius: 2px;
+    background: linear-gradient(#4385fd,#4385f4);
+    color: #fff !important;
+    font-weight: bold;
 }
 
 ul.about > li {
     float: left;
 }
 
-ul.legal > li {
+ul.legal > li, ul.menu > li{
     float: right;
 }
 
-ul.menu > li {
-    float: right;
+ul.about > li:first-child {
+    margin-left: 32px;
+}
+
+
+
+ul.legal > li:first-child, ul.menu > li:first-child {
+    margin-right: 32px;
 }
 
 input.find {
@@ -92,6 +113,20 @@ button.btn-s {
     color: #757575;
     border: 1px none;
     border-radius: 2px;
+}
+
+.logo {
+    width: 272px;
+    height: 94px;
+    background-image: url("../img/Logo.png");
+}
+
+.region {
+    font-size: 16px;
+    color: #4385f4;
+    position: relative;
+    left: 215px;
+    top: 76px;
 }
 
 @font-face {
@@ -124,7 +159,7 @@ button.btn-s {
      
       display: inline-block;
       text-decoration: inherit;
-      width: 1em;
+      width: 1.5em;
       margin-right: .2em;
       text-align: center;
       /* opacity: .8; */
