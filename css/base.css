@@ -73,6 +73,27 @@ ul.menu > li {
     float: right;
 }
 
+input.find {
+    border: 1px solid #d9d9d9;
+    font-size: 16px;
+}
+
+input.find:hover {
+    border-color: #b9b9b9;
+}
+
+input.find:focus {
+    border-color: #4d90fe;
+}
+
+button.btn-s {
+    font-size: 13px;
+    font-weight: 700;
+    color: #757575;
+    border: 1px none;
+    border-radius: 2px;
+}
+
 @font-face {
       font-family: 'fa-menu';
       src: url('./font/fa-menu.eot?9308977');
