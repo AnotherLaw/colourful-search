@@ -7,3 +7,7 @@ This project aims to complete the first project of The Odin Project, which utili
 ## What we're trying to replicate
 
 ![](assets/google-ref.png?raw=true)
+
+## Demo
+
+You can preview this page with [HTML Preview](http://htmlpreview.github.io/) by copying and pasting the URL to index.html in the file list above, or by clicking [here](http://htmlpreview.github.io/?https://github.com/AnotherLaw/colourful-search/blob/master/index.html).
