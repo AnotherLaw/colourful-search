@@ -126,12 +126,18 @@ button.btn-s {
     font-size: 13px;
     font-weight: 700;
     color: #757575;
-    border: 1px none;
+    border: 1px solid #fff;
     border-radius: 2px;
 }
 
 .btn-s:first-child {
     margin-right: 6px;
+}
+
+.btn-s:hover {
+    color: #000;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 2px #ececec;
 }
 
 .logo {
