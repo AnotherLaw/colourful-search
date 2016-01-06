@@ -80,6 +80,7 @@ li.sign-button {
     background: linear-gradient(#4385fd,#4385f4);
     color: #fff !important;
     font-weight: bold;
+    cursor: default;
 }
 
 ul.about > li {
@@ -214,6 +215,6 @@ button.btn-s {
 }
 
 .icon-apps:hover {
-    cursor: pointer;
+    cursor: default;
     color: #000;
 }
